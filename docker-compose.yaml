@@ -1,0 +1,19 @@
+version: '2.1'
+
+services:
+  api:
+    image: price_prediction_api
+    volumes:
+      - ./api/:/app/
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+
+  notebook:
+    image: jupyter_notebook
+    volumes:
+      - ./api/:/home/user/app/
+      - ./jupyter_notebook/:/home/user/
+    restart: unless-stopped
+    ports:
+      - "4000:4000"

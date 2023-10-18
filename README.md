@@ -1,2 +1,6 @@
-# workshop_ml_api
-Um  repositório com exemplos de implementação de uma API para Machile Learning
+# Vitrine_Urbana
+Projeto do Vitrine Urbana
+
+Link para o GitHub do SMOGN: https://github.com/nickkunz/smogn
+
+Link para o Documento no Overleaf: https://pt.overleaf.com/read/vzthyxqrbfbv
